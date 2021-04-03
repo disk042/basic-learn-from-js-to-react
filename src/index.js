@@ -39,7 +39,7 @@
 // console.log(val4);
 
 // constで定義したオブジçェクトはプロパティの変更が可能
-// const val5 = [“dog”, “cat”];
-// val5[0] = “bird”;
-// val5.push(“monkey”);
-// console.log(val5);
+const val5 = ["dog", "cat"];
+val5[0] = "bird";
+val5.push("monkey");
+console.log(val5);
