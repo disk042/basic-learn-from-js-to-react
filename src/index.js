@@ -39,8 +39,8 @@ const createIncompleteList = (text) => {
     // div以下を初期化
     addTarget.textContent = null;
 
-    const li = document.createElement("li");
-    li.innerText = text;
+    const p = document.createElement("p");
+    p.innerText = text;
 
     // button生成
     const backButton = document.createElement("button");
@@ -56,7 +56,7 @@ const createIncompleteList = (text) => {
     });
 
     // divタグの子要素に設定
-    addTarget.appendChild(li);
+    addTarget.appendChild(p);
     addTarget.appendChild(backButton);
 
     document.getElementById("finish-list").appendChild(addTarget);
